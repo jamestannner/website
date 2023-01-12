@@ -1,2 +1,2 @@
-# website
-A personal website for resume and such
+# Website
+A [personal website](jamestanner.dev) for my resume and such
