@@ -11,7 +11,7 @@ body {
 
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway"; /* OPTIONAL: Google Fonts - title font */
+  font-family: "Raleway"; 
   font-weight: 300;
   color: #333;
 }
@@ -87,6 +87,7 @@ a:after {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  text-shadow: 2px 2px 8px #2f2f2f;
 }
 
 .header h1 {
