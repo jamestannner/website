@@ -1,2 +1,2 @@
 # Website
-A [personal website](jamestanner.dev) for my resume and such
+A [personal website](https://jamestanner.dev/) for my resume and such
