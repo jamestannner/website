@@ -106,6 +106,22 @@ body {
     color: #666;
     font-size: 0.9rem;
   }
+  .essay-title {
+    font-size: 18px;
+  }
+  .essay-date {
+    color: #666;
+    font-style: italic;
+    margin: 0 0.5rem;
+    font-size: 0.8rem;
+  }
+  
+  /* === Essay Page Specific === */
+  .date {
+    color: #666;
+    font-style: italic;
+    margin: 0.5rem 0 1.5rem 0;
+  }
   
   /* === Responsive Styles === */
   @media (max-width: 600px) {
