@@ -1,105 +1,207 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">	
-    <meta name="description" content="James Tanner - Software Engineer at Perpay. Computer Science and Economics graduate from University of Virginia.">
-    <meta name="author" content="James Boyden Tanner">
-    <title>James Boyden Tanner - Software Engineer</title>
-	<link rel="stylesheet" href="style.css">
-</head>
-
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="James Tanner - Software Engineer at Perpay. Computer Science and Economics graduate from University of Virginia."
+    />
+    <meta name="author" content="James Boyden Tanner" />
+    <title>James Boyden Tanner</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
   <body>
     <header>
-      <h1>James Boyden Tanner</h1>
-      <h2>Software Engineer | <a href="mailto:pey3cj@virginia.edu">pey3cj@virginia.edu</a></h2>
+      <div class="header-inner">
+        <a href="#" class="name">James Boyden Tanner</a>
+        <nav>
+          <a href="#about">About</a>
+          <a href="#experience">Experience</a>
+          <a href="#education">Education</a>
+          <a href="#honors">Honors</a>
+          <a href="#essays">Essays</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
     </header>
 
     <main>
-      <section>
-        <h3>About</h3>
-        <p>I'm a Software Engineer at <a href="https://perpay.com">Perpay Inc.</a>
-            At Perpay, we believe everyone deserves a chance to improve their financial future. 
-            We're dedicated to building simple and inclusive financial products that help our members create healthy habits and achieve economic stability.</p>
-        <p>Outside of work I like to cook, travel, exercise, and spend time outdoors.</p>
-      </section>
-
-      <section>
-        <h3>Education</h3>
-        <p><strong>Bachelor of Science with High Distinction</strong>, Computer Science and Economics<br>
-        University of Virginia School of Engineering & Applied Science, Charlottesville VA<br>
-        <em>Dean's List</em></p>
-        
-        <p><strong>High School Diploma</strong><br>
-        William Penn Charter School, Philadelphia PA<br>
-        <em>Cum Laude Society, Academic High Honors</em></p>
-      </section>
-
-      <section>
-        <h3>Work Experience</h3>
-        <p><span class="job-title">Software Engineer,</span> 
-          <span class="company"><a href="https://perpay.com">Perpay Inc.</a></span>
-          <br/>I contribute to the development of a full-stack Django and React web application serving over seven million users.
-          I've worked on asynchronous task engineering, online marketplace features, payment processing logic, admin tooling, and CI/CD pipeline development.
-          I collaborate in person with a fast-paced, high-growth engineering team.
+      <section id="about">
+        <h2>About</h2>
+        <p>
+          I'm a Software Engineer at
+          <a href="https://perpay.com">Perpay Inc.</a>, where I work on a
+          full-stack Django and React platform serving over seven million users.
+          My work spans asynchronous task engineering, marketplace features,
+          payment processing, admin tooling, and CI/CD pipelines.
         </p>
-        <p><span class="job-title">Software Engineer Intern,</span> 
-          <span class="company"><a href="https://perpay.com">Perpay Inc.</a></span></p>
-        <p><span class="job-title">Software Engineer Intern,</span> 
-          <span class="company"><a href="https://thebrandtechgroup.com">The Brandtech Group</a></span>
-          <br/>I developed AI-powered facial recognition tools to enhance Brandtech's Visual Intelligence platform.
-          Using Flask and Google Cloud Functions, I helped launch a prototype that was used internally to demonstrate capabilities to clients.
-          I worked closely with an international team in remote and in-person settings.
+        <p>
+          I studied Computer Science and Economics at the University of Virginia
+          School of Engineering &amp; Applied Science, graduating with High
+          Distinction.
         </p>
-        <p><span class="job-title">Lifeguard,</span> 
-          <span class="company"><a href="https://www.invitedclubs.com/clubs/north-hills-country-club">North Hills Country Club</a></span>
-          <br/>I maintained a safe and clean pool environment by monitoring swimmers, enforcing safety protocols, and responding to emergencies.
-          I was also responsible for daily operations including opening, closing, and maintaining facility cleanliness.
-      </p>
-      </section>
-
-      <section>
-        <h3>Honors & Awards</h3>
-        <p class="award-item">
-          <span class="award-title">Eagle Scout</span><br>
-          <span class="award-org">Boy Scouts of America</span>
-        </p>
-        
-        <p class="award-item">
-          <span class="award-title">Good Citizenship Award</span><br>
-          <span class="award-org">Union League of Philadelphia</span>
-        </p>
-        
-        <p class="award-item">
-          <span class="award-title">Letter of Commendation</span><br>
-          <span class="award-org">National Merit Scholarship Program</span>
-        </p>
-        
-        <p class="award-item">
-          <span class="award-title">Published Mathematical Proof</span><br>
-          <span class="award-org">New York State Mathematics Teachers' Journal</span>
+        <p>
+          Outside of work I like to cook, travel, exercise, and spend time
+          outdoors.
         </p>
       </section>
 
-      <section>
-        <h3>Contact</h3>
-        <address class="contact-grid">
-          <p>Email: <a href="mailto:pey3cj@virginia.edu">pey3cj@virginia.edu</a></p>
-          <p>Phone: <a href="tel:2156201241">+1 (215) 620-1241</a></p>
-          <p>LinkedIn: <a href="https://www.linkedin.com/in/james-tanner/" target="_blank">linkedin.com/in/james-tanner/</a></p>
-          <p>GitHub: <a href="https://github.com/jamestannner" target="_blank">github.com/jamestannner</a></p>
-          <p>Resume: <a href="James Boyden Tanner Resume.pdf" target="_blank">download</a></p>
-        </address>
+      <section id="experience">
+        <h2>Work Experience</h2>
+        <div class="entry">
+          <div class="entry-left">
+            <div class="entry-title">
+              Software Engineer &mdash;
+              <a href="https://perpay.com">Perpay Inc.</a>
+            </div>
+            <div class="entry-body">
+              Full-stack development on a platform dedicated to building
+              inclusive financial products. Contributed to async task
+              engineering, marketplace features, payment processing logic, admin
+              tooling, and CI/CD pipeline development.
+            </div>
+            <div class="entry-body">
+              At Perpay, we believe everyone deserves a chance to improve their
+              financial future. We're dedicated to building simple and inclusive
+              financial products that help our members create healthy habits and
+              achieve economic stability. We're hiring and would love for you to
+              join us! Check out our careers page to learn more:
+              <a href="https://perpay.com/careers">perpay.com/careers</a>
+            </div>
+          </div>
+        </div>
+        <div class="entry">
+          <div class="entry-left">
+            <div class="entry-title">
+              Software Engineer Intern &mdash;
+              <a href="https://perpay.com">Perpay Inc.</a>
+            </div>
+          </div>
+        </div>
+        <div class="entry">
+          <div class="entry-left">
+            <div class="entry-title">
+              Software Engineer Intern &mdash;
+              <a href="https://thebrandtechgroup.com">The Brandtech Group</a>
+            </div>
+            <div class="entry-body">
+              Built AI-powered facial recognition tools using Flask and Google
+              Cloud Functions, helping launch a prototype for the Visual
+              Intelligence platform. Worked with an international team in remote
+              and in-person settings.
+            </div>
+            <div class="entry-body">
+              Brandtech is a marketing technology group that helps brands do
+              their marketing better, faster and cheaper using the latest
+              technology.
+            </div>
+          </div>
+        </div>
       </section>
-      <section>
-        <h3>Essays</h3>
-        <ul>
+
+      <section id="education">
+        <h2>Education</h2>
+        <div class="entry">
+          <div class="entry-left">
+            <div class="entry-title">University of Virginia</div>
+            <div class="entry-sub">
+              B.S. with High Distinction &mdash; Computer Science &amp;
+              Economics
+            </div>
+            <div class="entry-body">
+              School of Engineering &amp; Applied Science &middot; Dean's List
+            </div>
+          </div>
+        </div>
+        <div class="entry">
+          <div class="entry-left">
+            <div class="entry-title">William Penn Charter School</div>
+            <div class="entry-sub">
+              High School Diploma &mdash; Philadelphia, PA
+            </div>
+            <div class="entry-body">
+              Cum Laude Society &middot; Academic High Honors
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="honors">
+        <h2>Honors &amp; Awards</h2>
+        <div class="entry">
+          <div class="entry-left">
+            <div class="entry-title">Eagle Scout</div>
+            <div class="entry-sub">Boy Scouts of America</div>
+          </div>
+        </div>
+        <div class="entry">
+          <div class="entry-left">
+            <div class="entry-title">Good Citizenship Award</div>
+            <div class="entry-sub">Union League of Philadelphia</div>
+          </div>
+        </div>
+        <div class="entry">
+          <div class="entry-left">
+            <div class="entry-title">Letter of Commendation</div>
+            <div class="entry-sub">National Merit Scholarship Program</div>
+          </div>
+        </div>
+        <div class="entry">
+          <div class="entry-left">
+            <div class="entry-title">Published Mathematical Proof</div>
+            <div class="entry-sub">
+              New York State Mathematics Teachers' Journal
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="essays">
+        <h2>Essays</h2>
+        <ul class="essay-list">
           <li>
-            <a class="essay-title" href="essays/on-growing-up.html">On growing up</a>
+            <a href="essays/on-growing-up.html">On growing up</a>
             <span class="essay-date">May 20, 2025</span>
-            </li>
+          </li>
         </ul>
       </section>
+      <section id="contact">
+        <h2>Contact</h2>
+        <address>
+          <ul class="contact-list">
+            <li>
+              <span class="contact-label">Email</span>
+              <a href="mailto:pey3cj@virginia.edu">pey3cj@virginia.edu</a>
+            </li>
+            <li>
+              <span class="contact-label">Phone</span>
+              <a href="tel:2156201241">+1 (215) 620-1241</a>
+            </li>
+            <li>
+              <span class="contact-label">LinkedIn</span>
+              <a
+                href="https://www.linkedin.com/in/james-tanner/"
+                target="_blank"
+                >linkedin.com/in/james-tanner</a
+              >
+            </li>
+            <li>
+              <span class="contact-label">GitHub</span>
+              <a href="https://github.com/jamestannner" target="_blank"
+                >github.com/jamestannner</a
+              >
+            </li>
+            <li>
+              <span class="contact-label">Resume</span>
+              <a href="James Boyden Tanner Resume.pdf" target="_blank"
+                >download PDF</a
+              >
+            </li>
+          </ul>
+        </address>
+      </section>
     </main>
+    <footer>&copy; 2026 James Boyden Tanner</footer>
   </body>
 </html>
